@@ -8,7 +8,7 @@
 
 - **方案 A**：一台能访问浏览器的电脑
 - **方案 B**：如果通过通用云端 SSH 部署，请先安装以下两个文件到 Windows（适用于各种云平台的通用方案，例如仙宫云版本 O.o ComfyUI 镜像）：
-  - [putty-64bit-0.84-installer.msi](应用/putty-64bit-0.84-installer.msi)
+  - [Icon.installericon.exe（PuTTY 安装包）](应用/Icon.installericon.exe)
   - [WinSCP-6.5.6-Setup.exe](应用/WinSCP-6.5.6-Setup%20(1).exe)
 
 两个文件安装一下，安装向导里能勾选的功能都勾上即可。
