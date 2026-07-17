@@ -1,4 +1,4 @@
-# Scnet ComfyUI Guide
+# 国家超算互联网平台白嫖gpu运行comfyui指南 Scnet ComfyUI Guide
 感谢cnb平台大佬cnb-xu的开发（又名O.o），方便各位在国家投资的平台十万张国产gpu运行comfyui
 
 准备：方案A一台能访问浏览器的电脑/方案B 如果通过通用云端ssh部署，请先安装以下两个文件到windows（适用于各种云平台的通用方案，例如仙宫云版本O.o comfyui镜像）
