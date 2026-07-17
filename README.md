@@ -87,7 +87,8 @@
 
 - **方案 A（传统下载）**：选择 `private_data/comfyui/models`，进入对应模型类型的目录打开终端，用 `curl -L -OJ` 下载自己想跑的 CNB 模型。
 - **方案 B（自动下载）**：直接打开工作流看看下拉菜单有没有模型，运行工作流即可。
-- **方案 C（添加自动下载）**：编辑 `private_data/comfyui/source.json`，把下载链接添加进去，或者添加本仓库里的两个文件，即可把 CNB 的社区收录搬运过去。
+- **方案 C（搬运自动下载）**：编辑 `private_data/comfyui/source.json`，把下载链接添加进去，或者添加本仓库里的两个文件，即可把 CNB 的社区收录搬运过去。👉 [aimodels包](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/blob/auto/add-readme-0d40/cnb%E7%A4%BE%E5%8C%BA%E6%A8%A1%E5%9E%8B%E6%90%AC%E8%BF%90%E5%8C%85/source.json)
+👉 [社区包](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/blob/auto/add-readme-0d40/cnb%E7%A4%BE%E5%8C%BA%E6%A8%A1%E5%9E%8B%E6%90%AC%E8%BF%90%E5%8C%85/source-community.json)
 - **方案 D（添加下载链接）**：终端输入 `ui`，再去人工智能 Notebook 网页，自定义端口改成 `7860`，就能在网页交互式下载模型。
 - **方案 E（本地上传）**：直接拖拽上传到 JupyterLab 或 WinSCP，后者支持断点续传。
 
