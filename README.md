@@ -38,7 +38,7 @@
 
 > 创建 Notebook → 社区镜像 → 搜索 **O.o-comfyui** → 选择版本 → 部署
 
-（注：O.o-comfyui 对应镜像库链接，作者暂时没有写文档，不重要：[镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929)）
+（注：O.o-comfyui 对应镜像库链接，作者暂时没有写文档，不重要：[O.o-comfyui镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929)）
 
 等待启动完成……每次启动可以运行 **72h**。
 
