@@ -1,4 +1,4 @@
-# 国家超算互联网平台白嫖 GPU 运行 ComfyUI 指南（Scnet ComfyUI Guide）
+# 国家超算互联网平台白嫖 GPU 运行 ComfyUI 指南（Scnet ComfyUI baipiao Guide）
 
 感谢 CNB 平台大佬 **cnb-xu**（又名 O.o）的开发，方便各位在国家投资的平台（十万张国产 GPU）上运行 ComfyUI。
 
