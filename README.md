@@ -1,47 +1,33 @@
 # Scnet ComfyUI Guide
+感谢cnb平台大佬cnb-xu的开发（又名O.o），方便各位在国家投资的平台十万张国产gpu运行comfyui
 
-欢迎来到 **Scnet ComfyUI Guide**！本仓库旨在提供关于 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) 的实用指南、教程与最佳实践，帮助大家更高效地使用这款强大的节点式 AI 图像生成工具。
+准备：方案A一台能访问浏览器的电脑/方案B 如果通过通用云端ssh部署，请先安装以下两个文件到windows（适用于各种云平台的通用方案，例如仙宫云版本O.o comfyui镜像）
+putty-64bit-0.84-installer.msi
+WinSCP-6.5.6-Setup.exe
+两个文件安装一下并且里面能装功能的都勾上
+提示：部分n卡专用功能以及llm暂不支持
 
-## 📖 简介
+步骤
+1
+注册账号，如果后续需要实名的就实名一下
+https://www.scnet.cn/sso/register?service=https%3A%2F%2Fwww.scnet.cn%2Fac%2Fapi%2Fauth%2FloginSsoRedirect.action%3ForiginalUrl%3Dhttps%253A%252F%252Fwww.scnet.cn%252Fhome%252Fsubject%252Fhxjd%252Findex.html%253Fshow%253Dtrue%2526marketActivityId%253DgpQZWR9H%2526inviterId%253D11263962531
 
-ComfyUI 是一款基于节点工作流的 Stable Diffusion 前端工具，相比传统的 WebUI，它提供了更灵活、更可控的生成流程。本指南将围绕 ComfyUI 的核心概念、安装部署、工作流搭建以及常见问题展开，适合新手入门与进阶参考。
+2
+领取百万token（7.17 当前为一个月的kimi-2.6）
+https://www.scnet.cn/home/subject/hxjd/index.html
+领取国产gpu（三个月）
+https://www.scnet.cn/ui/mall/search/resource?region=20091
+都能领，不过本教学用到的是BW1 64gb
 
-## 🚀 功能特性
+3
+https://www.scnet.cn/ui/console/index.html#/notebook?notebookStatus=Running
 
-- 清晰的 ComfyUI 安装与配置步骤
-- 常用节点（Node）说明与示例工作流
-- 模型管理与显存优化建议
-- 常见问题排查（FAQ）
+这里是容器管理界面（即人工智能）
+创建notebook-社区镜像-搜索O.o-comfyui-选择版本-部署
+（这是O.o-comfyui对应镜像库链接，作者暂时没有写文档https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929）
 
-## 🛠️ 快速开始
+4 暂未明确如何操作，可跳过
+据说 人工智能界面还有一个文件管理，用户主目录记得调大一些，总共500gb硬盘可分配
+笔者进入后啥也看不到
 
-1. 克隆本仓库：
-
-   ```bash
-   git clone https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide.git
-   cd Scnet_Comfyui_Guide
-   ```
-
-2. 参考文档中的安装与入门章节，搭建你的 ComfyUI 环境。
-
-> 本仓库内容持续完善中，欢迎提出建议与贡献。
-
-## 📂 目录结构
-
-```
-Scnet_Comfyui_Guide/
-├── README.md          # 项目说明
-└── docs/              # 后续补充的教程文档
-```
-
-## 🤝 贡献
-
-如果你有好的使用技巧或教程，欢迎通过 Issue 或 Pull Request 参与贡献！
-
-## 📄 许可证
-
-本项目以 MIT 许可证开源，详见 [LICENSE](LICENSE) 文件（如有）。
-
----
-
-如有疑问或建议，欢迎在仓库中提交 Issue 与我们交流。
+5
