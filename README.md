@@ -8,8 +8,8 @@
 
 - **方案 A**：一台能访问浏览器的电脑
 - **方案 B**：如果通过通用云端 SSH 部署，请先安装以下两个文件到 Windows（适用于各种云平台的通用方案，例如仙宫云版本 O.o ComfyUI 镜像）：
-  - `putty-64bit-0.84-installer.msi`
-  - `WinSCP-6.5.6-Setup.exe`
+  - [putty-64bit-0.84-installer.msi](应用/putty-64bit-0.84-installer.msi)
+  - [WinSCP-6.5.6-Setup.exe](应用/WinSCP-6.5.6-Setup%20(1).exe)
 
 两个文件安装一下，安装向导里能勾选的功能都勾上即可。
 
@@ -29,6 +29,8 @@
 - 领取国产 GPU（三个月）：👉 [领取国产 GPU](https://www.scnet.cn/ui/mall/search/resource?region=20091)
 
 > **注意**：看到试用都能领，不过本教学用到的是 **BW1 64GB**。
+
+![img2](图片/img2.png)
 
 ### 3. 创建 Notebook（容器管理）
 
@@ -58,6 +60,8 @@
 - **方案 B（SSH）**：在人工智能页面，WinSCP 输入登录指令、密码、端口，直接连接机器。
 
 > SSH 方法通用性强，可适用于各种云平台都玩的老资历。记得在「选项设置 → 应用设置」里保存密码，WinSCP 传输密码给 PuTTY，启动 ComfyUI 时就不用重复输入密码。
+
+![img1](图片/img1.png)
 
 ### 6. 启动 ComfyUI 后端程序
 
