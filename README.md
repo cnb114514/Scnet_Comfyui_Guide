@@ -98,3 +98,6 @@
 ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也可用白嫖的 token 新建 API 导入到 OpenClaw，让 AI 帮你解决问题。
 
 > （预装 OpenClaw 的版本开发中……）
+
+
+###### *cnb白嫖人，跑路！*
