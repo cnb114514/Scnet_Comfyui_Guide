@@ -64,7 +64,7 @@
 
 操作流程：
 
-***创建 Notebook → 选择64gb显存的bw主机 → 社区镜像 → 搜索 o.o-comfyui 或 o.o-comfyui-withopenclaw → 选择版本 → 部署***
+***创建 Notebook → 选择64gb显存的bw主机 → 社区镜像 → 搜索 o.o-comfyui 或 o.o-comfyui-withopenclaw → 选择最新的版本 → 部署***
 
 > <sub>作者通道 [O.o-comfyui镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929) [O.o-comfyui-withopenclaw镜像库链接](https://www.scnet.cn/ui/aihub/image/accma5g3vg/2078319083724169218)</sub>
 
