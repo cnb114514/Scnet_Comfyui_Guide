@@ -113,5 +113,8 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 
 -----执行 "bash ~/setup_openclaw.sh^C" -输入api -选择模型 回车
 
-
+### 11.问题反馈
+- 渠道1 装完openclaw自己问
+- 渠道2 cnb文档仓库的issue https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/issues
+- 渠道3 镜像作者cnb-xu微信群 [**群二维码**](https://cnb.cool/cnb-xu/docs/-/git/raw/main/comfyui/image/qrcode.png) | 
 ###### *cnb白嫖人，跑路！*
