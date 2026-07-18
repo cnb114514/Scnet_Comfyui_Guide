@@ -1,7 +1,7 @@
 # 国家超算互联网平台白嫖 GPU 运行 ComfyUI+Openclaw 指南
 # Scnet ComfyUI baipiao Guide
 
-[图文版教学](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide)
+[图文版教学](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) [海外github图文版](https://github.com/a1010580415-commits/Scnet_Comfyui_Guide) 
 
 ## 📑 目录
 
