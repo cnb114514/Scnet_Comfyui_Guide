@@ -105,10 +105,13 @@
 
 ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也可用白嫖的 token 新建 API 导入到 OpenClaw，让 AI 帮你解决问题。
 
-### 10. token使用
-方案A 直接下载scnet的Windows app，可免费调用scnet-max/kimi-2.6两种模型
-方案B 安装openclaw
-> （预装 OpenClaw 的版本开发中……）
+### 10. 白嫖的token使用
+- **方案 A** 直接下载scnet的Windows app，可免费调用scnet-max/kimi-2.6两种模型
+- **方案 B** 使用预装openclaw环境版本镜像O.o-comfyui-withopenclaw，然后按下面操作
+
+-----获取api（需要先领取kimi2.6 token） ：👉 [创建apikey](https://www.scnet.cn/ui/console/index.html#/llm/apikeys)
+
+-----执行 "bash ~/setup_openclaw.sh^C" -输入api -选择模型 回车
 
 
 ###### *cnb白嫖人，跑路！*
