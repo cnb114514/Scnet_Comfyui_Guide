@@ -3,7 +3,7 @@
 
 [图文版教学](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide)
 
-感谢 CNB 平台大佬 **cnb-xu**（又名 O.o）的开发，方便各位在国家投资的平台（十万张国产 GPU）上运行 ComfyUI。
+> 感谢 CNB 平台大佬 **cnb-xu**（又名 O.o）的开发，方便各位在国家投资的平台（十万张国产 GPU）上运行 ComfyUI。
 
 > **提示**：部分 N 卡专用功能以及 LLM 暂不支持。
 
