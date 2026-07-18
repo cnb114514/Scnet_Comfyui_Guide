@@ -130,7 +130,7 @@
 访问方案有三种：
 
 - **方案 A**：执行完 5 和 6 后，在人工智能 Notebook 网页，容器右侧「访问自定义服务：8188」弹出隧道网页。
-- **方案 B**：未执行 5 和 6，直接访问自定义服务（端口：8188，启动命令：`/root/O.o-ai/qd`）弹出隧道网页。
+- **方案 B**：未执行 5 和 6，直接访问 自定义服务🔧（端口：8188，启动命令：`/root/O.o-ai/qd`）弹出隧道网页。
 - **方案 C（SSH）**：执行完 5 和 6 后，通过 PuTTY 会把云端的本地端口映射为自己的本地端口，直接访问固定地址 👉 http://0.0.0.0:8188
 
 ——————————————————————————————————————————————
@@ -139,7 +139,7 @@
 
 此镜像基于 cnb-xu 开发的自动下载方案：如果模型 Loader 节点下拉存在模型名字，运行工作流时会自动下载，速度 30–100 MB/s 不等。
 
-- **方案 A（推荐!自定义下载）**：使用o.o-comfyui-withopenclaw社区镜像后，打开 `private_data/comfyui/自定义下载yaml`，根据示例自己添加下载链接
+- **方案 A（推荐!自定义下载）**：使用o.o-comfyui-withopenclaw社区镜像后，打开 `private_data/comfyui/自定义下载.yaml`，根据示例自己添加下载链接
 - **方案 B（传统下载）**：选择 `private_data/comfyui/models`，进入对应模型类型的目录打开终端，用 `curl -L -OJ` 下载自己想跑的 CNB 模型。
 - **方案 C（自动下载）**：直接打开工作流看看下拉菜单有没有模型，运行工作流即可。
 - **方案 D（搬运自动下载）**：编辑 `private_data/comfyui/source.json`，把下载链接添加进去，或者添加本仓库里的两个文件，即可把 CNB 的社区收录搬运过去。👉 [aimodels包](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/blob/auto/add-readme-0d40/cnb%E7%A4%BE%E5%8C%BA%E6%A8%A1%E5%9E%8B%E6%90%AC%E8%BF%90%E5%8C%85/source.json)
@@ -184,7 +184,7 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 | 指令 | 作用说明 |
 | :--- | :--- |
 | `bash ~/setup_openclaw.sh` | ⬆️ 首次使用请先执行 `bash ~/setup_openclaw.sh`，按提示填入 scnet API 与模型，即可完成 OpenClaw 的环境配置。
-| `openclaw` | 🚀启动openclaw
+| `openclaw` | 🚀启动openclaw (需预装openclaw版)
 | `qd` | 🚀 启动comfyui（端口8188）
 | `ui` | 🖥️ 启动交互模型下载器（端口7860） |
 | `update` | ⬆️ 升级comfyui，推荐询问openclaw操作以保留魔改代码 |
@@ -195,5 +195,6 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 
 > ===================================================
 # 更新日志
-    **2026.07-17** 1.0 新增openclaw预装和api导入交互脚本
-    **2026.07-18** 2.0 更新comfyui114514自动同步模型，aimodels模型，自定义下载模型脚本，cnb工作流示例（未安装插件）
+    **2026.07-17** o.o-comfyui-withopenclaw-1.0 新增openclaw预装和api导入交互脚本
+    **2026.07-18** o.o-comfyui-withopenclaw-2.1 更新comfyui114514自动同步模型，aimodels模型，自定义下载模型脚本，cnb工作流示例（未安装插件）
+###### *cnb白嫖人，跑路！*
