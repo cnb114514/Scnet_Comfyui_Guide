@@ -183,23 +183,13 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 
 | 指令 | 作用说明 |
 | :--- | :--- |
-| `openclaw` | 🦅 唤醒我的本体（OpenClaw），为你出谋划策、答疑解惑 |
-| `qd` | 🚀 一键丝滑启动 ComfyUI 主服务（即 `/root/O.o-ai/qd`） |
-| `ui` | 🖥️ 一键拉起后台「高级云端模型同步与多线程管理面板」 |
-| `update` | ⬆️ 一键升级最新生态（镜像/脚本更新） |
+| `bash ~/setup_openclaw.sh` | ⬆️ 首次使用请先执行 `bash ~/setup_openclaw.sh`，按提示填入 scnet API 与模型，即可完成 OpenClaw 的环境配置。
+| `openclaw` | 🚀启动openclaw
+| `qd` | 🚀 启动comfyui（端口8188）
+| `ui` | 🖥️ 启动交互模型下载器（端口7860） |
+| `update` | ⬆️ 升级comfyui，推荐询问openclaw操作以保留魔改代码 |
 
-> **初始化设置**：首次使用请先执行 `bash ~/setup_openclaw.sh`，按提示填入 scnet API 与模型，即可完成 OpenClaw 的环境配置。
 
-```bash
-# 初始化 OpenClaw（设置 scnet api 和模型）
-bash ~/setup_openclaw.sh
-
-# 日常一键指令
-openclaw   # 唤醒本体，随时答疑
-qd         # 启动 ComfyUI 主服务
-ui         # 拉起模型同步管理面板
-update     # 升级最新生态
-```
 
 > 💡 提示：以上指令均为镜像内置的快捷方式，建议在已完成 [步骤 5 访问 Linux 系统](#5-访问-linux-系统) 的终端中使用。
 
@@ -207,4 +197,3 @@ update     # 升级最新生态
 # 更新日志
     **2026.07-17** 1.0 新增openclaw预装和api导入交互脚本
     **2026.07-18** 2.0 更新comfyui114514自动同步模型，aimodels模型，自定义下载模型脚本，cnb工作流示例（未安装插件）
-    **2026.07-19** 3.0 新增第12章「命令合集」，汇总 openclaw/qd/ui/update 一键指令与 setup_openclaw.sh 初始化说明
