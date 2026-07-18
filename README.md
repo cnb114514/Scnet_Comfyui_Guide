@@ -39,7 +39,7 @@
 
 ![img2](图片/img2.png)
 
-（步骤2图片）
+<sub>（步骤2图片）</sub>
 
 ——————————————————————————————————————————————
 
@@ -49,9 +49,9 @@
 
 操作流程：
 
->       创建 Notebook → 选择64gb显存的bw主机 → 社区镜像 → 搜索  o.o-comfyui  或 o.o-comfyui-withopenclaw  → 选择版本 → 部署  
+**创建 Notebook → 选择64gb显存的bw主机 → 社区镜像 → 搜索 o.o-comfyui 或 o.o-comfyui-withopenclaw → 选择版本 → 部署**
 
-> 作者通道 [O.o-comfyui镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929) [O.o-comfyui-withopenclaw镜像库链接](https://www.scnet.cn/ui/aihub/image/accma5g3vg/2078319083724169218)
+<sub>作者通道 [O.o-comfyui镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929) [O.o-comfyui-withopenclaw镜像库链接](https://www.scnet.cn/ui/aihub/image/accma5g3vg/2078319083724169218)</sub>
 
 等待启动完成……
 
@@ -60,7 +60,6 @@
 ![img3](图片/img3.png)
 
 （步骤3图片）
-
 ——————————————————————————————————————————————
 
 ### 4. 文件扩容
@@ -89,7 +88,7 @@
 
 ![img1](图片/img1.png)
 
-（步骤5-B图片）
+<sub>（步骤5-B图片）</sub>
 
 ——————————————————————————————————————————————
 
