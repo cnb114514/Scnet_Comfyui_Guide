@@ -202,9 +202,6 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
     **2026.07-18** o.o-comfyui-withopenclaw-2.1 更新comfyui114514自动同步模型，aimodels模型，自定义下载模型脚本，cnb工作流示例（未安装插件）
 ###### *cnb白嫖人，跑路！*
 
-# China National Supercomputing Internet (SCNet) GPU Platform ComfyUI + OpenClaw Deployment Guide
-# Scnet ComfyUI baipiao Guide
-
 ==============================================================================================================================================================================
 - *
 - *
@@ -214,6 +211,11 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 - *
 - *
 - *
+
+# China National Supercomputing Internet (SCNet) GPU Platform ComfyUI + OpenClaw Deployment Guide
+# Scnet ComfyUI baipiao Guide
+
+
 
 [图文版教学(zh)](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) [github guide(eng)](https://github.com/cnb114514/Scnet_Comfyui_Guide) 
 
