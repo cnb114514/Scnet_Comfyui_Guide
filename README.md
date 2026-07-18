@@ -191,6 +191,12 @@ With `O.o-comfyui-withopenclaw` deployed, simply input these clean shorthand com
 * **2026.07-17**: `o.o-comfyui-withopenclaw-1.0` - Initialized pre-configured OpenClaw instance with interactive API setup.
 * **2026.07-18**: `o.o-comfyui-withopenclaw-2.1` - Updated automated model-sync mappings (aimodels), custom yaml parameters, and CNB default workflow presets.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- 中文版
+
+
+
 
 # 国家超算互联网平台白嫖 GPU 运行 ComfyUI+Openclaw 指南
 # Scnet ComfyUI baipiao Guide
