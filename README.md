@@ -69,17 +69,18 @@
 ——————————————————————————————————————————————
 
 ### 4. 文件扩容
-平台提供一个机子500gb，但是需要手动设置一下文件夹配额，
 
+平台**默认只给一台机器分配 500GB 空间**，但需要手动设置一下文件夹配额。
 
- 👉 [存储管理链接](https://www.scnet.cn/ui/console/index.html#/my-product/basic-resources/storage_resource)
+👉 [存储管理链接](https://www.scnet.cn/ui/console/index.html#/my-product/basic-resources/storage_resource)
 
- 点击扩容
- 
-用户主目录默认只有50gb，改成450gb，共享目录设置50gb
+操作步骤：
 
+- 进入存储管理页面，点击 **扩容**；
+- **用户主目录**：默认只有 50GB，改成 **450GB**；
+- **共享目录**：设置为 **50GB**。
 
-共享目录暂时不清楚是干什么用的
+> <sub>共享目录暂时不清楚是干什么用的，先按 50GB 设置即可。</sub>
 
 ——————————————————————————————————————————————
 
@@ -102,7 +103,7 @@
 
 访问 Linux 后，进入终端，输入 `qd` 回车（即 `/root/O.o-ai/qd` 的快捷方式）。
 
-> **注意**：ComfyUI 本体的文件主目录并不在 `root` 的 comfyui，真正的工作区在 `private_data`，下方有 comfyui。
+> **注意**：ComfyUI 本体的文件主目录并不在 `root` 的 `comfyui`，真正的工作区在 `private_data`，其下方才是 `comfyui`。
 
 等待启动完成……可看到 **8188** 本地端口已创建。
 
@@ -139,18 +140,20 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 
 ——————————————————————————————————————————————
 
-### 10. 白嫖的token使用
-- **方案 A** 直接下载scnet的Windows app，可免费调用scnet-max/kimi-2.6两种模型
-- **方案 B** 使用预装openclaw环境版本镜像O.o-comfyui-withopenclaw，然后按下面操作
+### 10. 白嫖的 token 使用
 
------获取api（需要先领取kimi2.6 token） ：👉 [创建apikey](https://www.scnet.cn/ui/console/index.html#/llm/apikeys)
+- **方案 A**：直接下载 scnet 的 Windows app，可免费调用 `scnet-max` / `kimi-2.6` 两种模型。
+- **方案 B**：使用预装 openclaw 环境版本镜像 `O.o-comfyui-withopenclaw`，然后按下面操作：
 
------执行 "bash ~/setup_openclaw.sh^C" -输入api -选择模型 回车
+  - 获取 API（需要先领取 kimi-2.6 token）：👉 [创建 apikey](https://www.scnet.cn/ui/console/index.html#/llm/apikeys)
+  - 终端执行 `bash ~/setup_openclaw.sh` → 输入 api → 选择模型 → 回车。
 
 ——————————————————————————————————————————————
 
-### 11.问题反馈
-- 渠道1 装完openclaw自己问
-- 渠道2 cnb文档仓库的issue https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide  https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/issues
-- 渠道3 镜像作者cnb-xu微信群 [**群二维码**](https://cnb.cool/cnb-xu/docs/-/git/raw/main/comfyui/image/qrcode.png) | 
+### 11. 问题反馈
+
+- **渠道 1**：装完 openclaw 自己问。
+- **渠道 2**：来 cnb 文档仓库的 issue 反馈 👉 [Scnet_Comfyui_Guide 仓库](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) | [Issues 列表](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide/-/issues)
+- **渠道 3**：加镜像作者 cnb-xu 的微信群 👉 [**群二维码**](https://cnb.cool/cnb-xu/docs/-/git/raw/main/comfyui/image/qrcode.png)
+
 ###### *cnb白嫖人，跑路！*
