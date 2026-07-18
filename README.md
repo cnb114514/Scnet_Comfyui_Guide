@@ -49,9 +49,16 @@
 每次启动可以运行 **72h**。
 
 ### 4. 文件扩容
-平台提供一个机子500gb，但是需要手动设置一下文件夹配额，点击扩容
+平台提供一个机子500gb，但是需要手动设置一下文件夹配额，
+
+
  👉 [存储管理链接](https://www.scnet.cn/ui/console/index.html#/my-product/basic-resources/storage_resource)
+
+ 点击扩容
+ 
 用户主目录默认只有50gb，改成450gb，共享目录设置50gb
+
+
 共享目录暂时不清楚是干什么用的
 
 ### 5. 访问 Linux 系统
