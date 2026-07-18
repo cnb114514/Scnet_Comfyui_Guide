@@ -206,14 +206,14 @@ ComfyUI 的正常操作这里不再赘述，如果遇到问题可以问 AI，也
 # Scnet ComfyUI baipiao Guide
 
 ==============================================================================================================================================================================
-> 
-> 
-> 
-> 
+- *
+- *
+- *
+- * 
 > ENGLISH(eng)
-> 
-> 
-> 
+- *
+- *
+- *
 
 [图文版教学(zh)](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) [github guide(eng)](https://github.com/cnb114514/Scnet_Comfyui_Guide) 
 
