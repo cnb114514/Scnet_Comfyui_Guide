@@ -2,7 +2,8 @@
 # Scnet ComfyUI baipiao Guide
 
 
-[图文版教学(zh)](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) [ github(eng)]([https://github.com/a1010580415-commits/Scnet_Comfyui_Guide](https://github.com/a1010580415-commits/Scnet_Comfyui_Guide)) 
+
+[图文版教学(zh)](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide) [github guide(eng)](https://github.com/cnb114514/Scnet_Comfyui_Guide) 
 
 
 ## 📑 Table of Contents
