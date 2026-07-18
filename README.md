@@ -53,13 +53,19 @@
 
 > <sub>作者通道 [O.o-comfyui镜像库链接](https://www.scnet.cn/ui/aihub/image/scnet_xu/2077623634511740929) [O.o-comfyui-withopenclaw镜像库链接](https://www.scnet.cn/ui/aihub/image/accma5g3vg/2078319083724169218)</sub>
 
-等待启动完成……
+
 
 > **提示**：每次启动可以运行 **72h**，操作完下一步 4文件扩容 可以保存关机！
+
+
+
 
 ![img3](图片/img3.png)
 
 <sub>（步骤3图片）<sub>
+
+> 等待启动完成……
+
 ——————————————————————————————————————————————
 
 ### 4. 文件扩容
