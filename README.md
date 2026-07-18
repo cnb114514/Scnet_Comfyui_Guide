@@ -1,4 +1,5 @@
-# 国家超算互联网平台白嫖 GPU 运行 ComfyUI 指南（Scnet ComfyUI baipiao Guide）
+# 国家超算互联网平台白嫖 GPU 运行 ComfyUI 指南
+# Scnet ComfyUI baipiao Guide
 
 [图文版教学](https://cnb.cool/comfyui114514/Scnet_Comfyui_Guide)
 
